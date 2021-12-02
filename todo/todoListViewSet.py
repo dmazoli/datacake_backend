@@ -6,3 +6,5 @@ class TodoListViewSet(viewsets.ModelViewSet):
     serializer_class = TodoSerializer
     queryset = TodoModel.objects.all()
     ordering_fields = ["-inicio"]
+
+    
